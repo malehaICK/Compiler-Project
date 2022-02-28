@@ -1,0 +1,58 @@
+*include "iostream"
+
+
+
+
+int main [](
+
+	int a = 15,b=10,c=25,x,y:
+	
+	
+	
+
+		while[a!=0,b!=0](
+		IF[a plus b greater than c ]
+		(
+				
+				x=a minus b :
+				print x:
+				
+		)
+
+		ELIF [a plus b greater than c ] 
+		(
+				
+				y=b minus a  :
+				print y:
+		
+			)
+
+		ELSE    (
+				break :
+			)
+
+
+
+		)
+
+		subfunc[a,b] :	
+		RETURN 0:
+		
+	)
+
+void subfunc [int a,int b](
+	int i:
+	for[i = 0 ,i less than 2,i increment]
+	(
+		a = (a plus a) divide b:
+		print a:
+		SWITCH[i](
+		
+		CASE(1)~ print 1:
+		CASE(2)~ print 2:
+		DEFAULT~ break:
+		
+		)
+		
+	)
+			)
